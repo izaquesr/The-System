@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #000114;
+    color: #fff;
+}
+
+.container {
+    width: min(85vw, 560px);
+    height: min(60vh, 360px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #00B4FF;
+    box-shadow:
+        0 0 10px #00B4FF,
+        0 0 25px rgba(0, 180, 255, 0.6),
+        inset 0 0 15px rgba(0, 180, 255, 0.3);
+
+    backdrop-filter: blur(4px);
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  pointer-events: none;
+}
+
+.caixa {
+    width: 85%;
+    height: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+
+    & h2 {
+        padding-bottom: 10px;
+    }
+
+    & input {
+        margin-top: 15px;
+        padding: 5px 8px 5px 8px;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        background-color: darkblue;
+        box-shadow: 1px 1px 25px 3px rgba(0, 17, 255, 0.479);
+
+    }
+}
