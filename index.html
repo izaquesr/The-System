@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>the Sistema</title>
 </head>
+
 <body>
     <main>
-        <div class="container">
-            <div class="caixa">
-                <div class="conteudo">
-                    <h2>Notification</h2>
-                    <p>Você se tornou um jogador</p>
-                    <form action="" id="jogadorForm">
-                        <input type="text" placeholder="Digite seu nome de jogador" id="jogador">
-                    </form>
-                </div>
+        <!-- wp:cover {"overlayColor":"custom-dark-blue-2","className":"ticss-674e9f08","layout":{"type":"constrained"},"hasCustomCSS":true,"customCSS":".light {\n    position: absolute;\n    width: 0px;\n    opacity: .75;\n    background-color: white;\n    box-shadow: #e9f1f1 0px 0px 20px 2px;\n    opacity: 0;\n    top: 100vh;\n    bottom: 0px;\n    left: 0px;\n    right: 0px;\n    margin: auto;\n}\n\n.x1{\n  -webkit-animation: floatUp 4s infinite linear;\n  -moz-animation: floatUp 4s infinite linear;\n  -o-animation: floatUp 4s infinite linear;\n  animation: floatUp 4s infinite linear;\n   -webkit-transform: scale(1.0);\n   -moz-transform: scale(1.0);\n   -o-transform: scale(1.0);\n  transform: scale(1.0);\n}\n\n.x2{\n  -webkit-animation: floatUp 7s infinite linear;\n  -moz-animation: floatUp 7s infinite linear;\n  -o-animation: floatUp 7s infinite linear;\n  animation: floatUp 7s infinite linear;\n  -webkit-transform: scale(1.6);\n  -moz-transform: scale(1.6);\n  -o-transform: scale(1.6);\n  transform: scale(1.6);\n  left: 15%;\n}\n\n.x3{\n  -webkit-animation: floatUp 2.5s infinite linear;\n  -moz-animation: floatUp 2.5s infinite linear;\n  -o-animation: floatUp 2.5s infinite linear;\n  animation: floatUp 2.5s infinite linear;\n  -webkit-transform: scale(.5);\n  -moz-transform: scale(.5);\n  -o-transform: scale(.5);\n  transform: scale(.5);\n  left: -15%;\n}\n\n.x4{\n  -webkit-animation: floatUp 4.5s infinite linear;\n  -moz-animation: floatUp 4.5s infinite linear;\n  -o-animation: floatUp 4.5s infinite linear;\n  animation: floatUp 4.5s infinite linear;\n  -webkit-transform: scale(1.2);\n  -moz-transform: scale(1.2);\n  -o-transform: scale(1.2);\n  transform: scale(1.2);\n  left: -34%;\n}\n\n.x5{\n  -webkit-animation: floatUp 8s infinite linear;\n  -moz-animation: floatUp 8s infinite linear;\n  -o-animation: floatUp 8s infinite linear;\n  animation: floatUp 8s infinite linear;\n  -webkit-transform: scale(2.2);\n  -moz-transform: scale(2.2);\n  -o-transform: scale(2.2);\n  transform: scale(2.2);\n  left: -57%;\n}\n\n.x6{\n  -webkit-animation: floatUp 3s infinite linear;\n  -moz-animation: floatUp 3s infinite linear;\n  -o-animation: floatUp 3s infinite linear;\n  animation: floatUp 3s infinite linear;\n  -webkit-transform: scale(.8);\n  -moz-transform: scale(.8);\n  -o-transform: scale(.8);\n  transform: scale(.8);\n  left: -81%;\n}\n\n.x7{\n  -webkit-animation: floatUp 5.3s infinite linear;\n  -moz-animation: floatUp 5.3s infinite linear;\n  -o-animation: floatUp 5.3s infinite linear;\n  animation: floatUp 5.3s infinite linear;\n  -webkit-transform: scale(3.2);\n  -moz-transform: scale(3.2);\n  -o-transform: scale(3.2);\n  transform: scale(3.2);\n  left: 37%;\n}\n\n.x8{\n  -webkit-animation: floatUp 4.7s infinite linear;\n  -moz-animation: floatUp 4.7s infinite linear;\n  -o-animation: floatUp 4.7s infinite linear;\n  animation: floatUp 4.7s infinite linear;\n  -webkit-transform: scale(1.7);\n  -moz-transform: scale(1.7);\n  -o-transform: scale(1.7);\n  transform: scale(1.7);\n  left: 62%;\n}\n\n.x9{\n  -webkit-animation: floatUp 4.1s infinite linear;\n  -moz-animation: floatUp 4.1s infinite linear;\n  -o-animation: floatUp 4.1s infinite linear;\n  animation: floatUp 4.1s infinite linear;\n  -webkit-transform: scale(0.9);\n  -moz-transform: scale(0.9);\n  -o-transform: scale(0.9);\n  transform: scale(0.9);\n  left: 85%;\n}\n\nbutton:focus{\n  outline: none;\n}\n\n@-webkit-keyframes floatUp{\n  0%{top: 100vh; opacity: 0;}\n  25%{opacity: 1;}\n  50%{top: 0vh; opacity: .8;}\n  75%{opacity: 1;}\n  100%{top: -100vh; opacity: 0;}\n}\n@-moz-keyframes floatUp{\n  0%{top: 100vh; opacity: 0;}\n  25%{opacity: 1;}\n  50%{top: 0vh; opacity: .8;}\n  75%{opacity: 1;}\n  100%{top: -100vh; opacity: 0;}\n}\n@-o-keyframes floatUp{\n  0%{top: 100vh; opacity: 0;}\n  25%{opacity: 1;}\n  50%{top: 0vh; opacity: .8;}\n  75%{opacity: 1;}\n  100%{top: -100vh; opacity: 0;}\n}\n@keyframes floatUp{\n  0%{top: 100vh; opacity: 0;}\n  25%{opacity: 1;}\n  50%{top: 0vh; opacity: .8;}\n  75%{opacity: 1;}\n  100%{top: -100vh; opacity: 0;}\n}\n"} -->
+        <div class="wp-block-cover ticss-674e9f08"><span aria-hidden="true"
+                class="wp-block-cover__background has-custom-dark-blue-2-background-color has-background-dim-100 has-background-dim"></span>
+            <div class="wp-block-cover__inner-container">
+                <!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
+                <p class="has-text-align-center has-large-font-size">Fluid Up Background Particle Animation</p>
+                <!-- /wp:paragraph -->
+
+                <!-- wp:html -->
+                <div class='light x1'></div>
+                <div class='light x2'></div>
+                <div class='light x3'></div>
+                <div class='light x4'></div>
+                <div class='light x5'></div>
+                <div class='light x6'></div>
+                <div class='light x7'></div>
+                <div class='light x8'></div>
+                <div class='light x9'></div>
+                <!-- /wp:html -->
+            </div>
+        </div>
+        <!-- /wp:cover -->
+        <div class="caixa">
+            <div class="conteudo">
+                <h2>Notification</h2>
+                <p>Você se tornou um jogador</p>
+                <form action="" id="jogadorForm">
+                    <input type="text" placeholder="Digite seu nome de jogador" id="jogador">
+                </form>
             </div>
         </div>
     </main>
 </body>
-    <script src="./script.js"></script>
+<script src="./script.js"></script>
+
 </html>
