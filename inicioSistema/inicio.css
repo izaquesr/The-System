@@ -37,6 +37,11 @@ body {
     overflow-y: auto;
 }
 
+h1 {
+    display: flex;
+    justify-content: end;
+}
+
 .missoes-caixa {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
